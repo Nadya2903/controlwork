@@ -1,4 +1,4 @@
-﻿Array ShowArray(string[] words)
+﻿void ShowArray(string[] words)
 {
     Console.Write("[");
     
@@ -11,8 +11,6 @@
         }
 
     Console.Write("=> ");
-
-    return words;
 }
 
 
